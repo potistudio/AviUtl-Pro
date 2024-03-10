@@ -22,6 +22,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
@@ -107,7 +108,10 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
+node_modules
 dist
+dist-ssr
+*.local
 
 # Gatsby files
 .cache/
@@ -160,3 +164,10 @@ dist
 
 # Built Visual Studio Code Extensions
 *.vsix
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

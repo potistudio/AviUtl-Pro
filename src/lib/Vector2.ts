@@ -62,6 +62,10 @@ export default class Vector2 {
 		return Math.acos (Vector2.dot (vector1, vector2) / (vector1.magnitude * vector2.magnitude));
 	}
 
+	static direction (vector1: Vector2, vector2: Vector2): Vector2 {
+		return vector1.clone().subtract (vector2).normalized;
+	}
+
 	static distance (vector1: Vector2, vector2: Vector2): number {
 		return vector1.subtract (vector2).magnitude;
 	}

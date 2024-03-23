@@ -67,7 +67,7 @@ export default class Vector2 {
 	}
 
 	static distance (vector1: Vector2, vector2: Vector2): number {
-		return vector1.subtract (vector2).magnitude;
+		return Math.sqrt ((vector2.x - vector1.x) ** 2 + (vector2.y - vector1.y) ** 2);
 	}
 
 	static lerp (vector1: Vector2, vector2: Vector2, t: number): Vector2 {

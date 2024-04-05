@@ -1,12 +1,7 @@
-
 <script lang="ts">
-
 </script>
 
-<main class="container">
-
-</main>
+<main class="container"></main>
 
 <style>
-
 </style>

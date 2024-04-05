@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	export let title: string = "Window Title";
 </script>
